@@ -240,3 +240,80 @@ footer a:hover {
     border-radius: 6px;
     margin-bottom: 10px;
 }
+
+.page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.page-intro {
+    background-color: #C1EBE9;
+    text-align: center;
+    padding: 40px;
+}
+
+.page-intro h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #4F252E;
+    margin-top: 0;
+}
+
+.page-intro p {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.attractions-page {
+    padding: 40px;
+}
+
+.attraction-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #FFF7C5;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.attraction-card img {
+    width: 300px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.attraction-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #4F252E;
+    margin-top: 0;
+}
+
+.food-page {
+    padding: 40px;
+}
+
+.food-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #FFF7C5;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.food-card img {
+    width: 300px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.food-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #4F252E;
+    margin-top: 0;
+}
