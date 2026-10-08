@@ -317,3 +317,248 @@ footer a:hover {
     color: #4F252E;
     margin-top: 0;
 }
+/* ---------- Travel Tips Page ---------- */
+
+.travel-tips-page {
+    padding: 40px;
+}
+
+.travel-tips-page h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #4F252E;
+    text-align: center;
+    margin-top: 0;
+}
+
+.travel-tips-page > p {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 30px;
+}
+
+.transport-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.transport-table th,
+.transport-table td {
+    border: 1px solid #4F252E;
+    padding: 15px;
+    text-align: left;
+}
+
+.transport-table th {
+    background-color: #4F252E;
+    color: #FFFFFF;
+}
+
+.transport-table tr:nth-child(even) {
+    background-color: #FFF7C5;
+}
+
+.travel-info {
+    display: flex;
+    gap: 20px;
+}
+
+.travel-tip-card {
+    flex: 1;
+    background-color: #C1EBE9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.travel-tip-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #4F252E;
+    margin-top: 0;
+}
+/* ---------- Gallery Page ---------- */
+
+.gallery-page {
+    padding: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gallery-item {
+    background-color: #FFF7C5;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.gallery-item h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #4F252E;
+    margin-bottom: 5px;
+}
+
+.gallery-item p {
+    margin-top: 5px;
+}
+/* ---------- Contact Page ---------- */
+
+.contact-page {
+    padding: 40px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.contact-page h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #4F252E;
+    text-align: center;
+    margin-top: 0;
+}
+
+.contact-page > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-page form {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact-page label {
+    font-weight: bold;
+}
+
+.contact-page input,
+.contact-page textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4F252E;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.contact-page textarea {
+    resize: vertical;
+}
+
+.contact-page input[type="submit"] {
+    grid-column: 2;
+    width: 120px;
+    background-color: #F4AE52;
+    color: #4F252E;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-page input[type="submit"]:hover {
+    background-color: #C1EBE9;
+}
+.external-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.external-link a {
+    color: #4F252E;
+    font-weight: bold;
+}
+/* ---------- Video Section ---------- */
+
+.video-section {
+    background-color: #FFF7C5;
+    text-align: center;
+    padding: 40px;
+}
+
+.video-section h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #4F252E;
+    margin-top: 0;
+}
+
+.video-section p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+.video-section video {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* ---------- Responsive Design ---------- */
+
+@media (max-width: 700px) {
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .highlights,
+    .food-grid,
+    .tips-grid,
+    .travel-info {
+        flex-direction: column;
+    }
+
+    .featured {
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .why-visit {
+        padding-left: 0;
+    }
+
+    .attraction-card,
+    .food-card {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .attraction-card img,
+    .food-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-page form {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-page input[type="submit"] {
+        grid-column: 1;
+    }
+
+    .transport-table {
+        font-size: 0.9em;
+    }
+
+}
